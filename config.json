@@ -1,0 +1,5 @@
+{
+  "token": "YOUR_TELEGRAM_BOT_TOKEN",
+  "ownerId": 123456789,
+  "prefix": "/"
+}
