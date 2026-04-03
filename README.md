@@ -8,24 +8,10 @@ Bot Telegram viết theo kiến trúc **modular**, lấy cảm hứng từ phong
 .
 ├── index.js
 ├── config.js
-├── .env.example
+├── config.json
 ├── modules/
 │   ├── command/
-│   │   ├── start.js
-│   │   ├── help.js
-│   │   ├── ping.js
-│   │   ├── echo.js
-│   │   ├── roll.js
-│   │   ├── math.js
-│   │   ├── time.js
-│   │   ├── choose.js
-│   │   ├── id.js
-│   │   └── admin.js
 │   └── Event/
-│       ├── message.js
-│       ├── newChatMembers.js
-│       ├── leftChatMember.js
-│       └── callbackQuery.js
 └── package.json
 ```
 
@@ -46,14 +32,18 @@ Bot Telegram viết theo kiến trúc **modular**, lấy cảm hứng từ phong
 
 ```bash
 npm install
-cp .env.example .env
 ```
 
-Điền token bot vào file `.env`:
+## Cấu hình
 
-```env
-BOT_TOKEN=your_telegram_bot_token
-OWNER_ID=123456789
+Sửa trực tiếp file `config.json`:
+
+```json
+{
+  "token": "YOUR_TELEGRAM_BOT_TOKEN",
+  "ownerId": 123456789,
+  "prefix": "/"
+}
 ```
 
 ## Chạy bot

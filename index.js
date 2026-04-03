@@ -4,7 +4,7 @@ const path = require('path');
 const config = require('./config');
 
 if (!config.token) {
-  console.error('[LỖI] Chưa có BOT_TOKEN. Hãy tạo file .env từ .env.example');
+  console.error('[LỖI] Chưa có token trong config.json.');
   process.exit(1);
 }
 

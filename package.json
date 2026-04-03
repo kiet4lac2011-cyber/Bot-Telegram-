@@ -9,7 +9,6 @@
     "check": "node --check index.js"
   },
   "dependencies": {
-    "dotenv": "^16.6.1",
     "node-telegram-bot-api": "^0.66.0"
   }
 }
