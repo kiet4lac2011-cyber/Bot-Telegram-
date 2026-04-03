@@ -1,0 +1,6 @@
+[
+  { "id": "shield", "name": "🛡️ Khiên", "price": 800, "description": "Giảm tỉ lệ bị cướp" },
+  { "id": "rod", "name": "🎣 Cần câu", "price": 1200, "description": "Tăng thưởng lệnh /fish" },
+  { "id": "pickaxe", "name": "⛏️ Cuốc", "price": 1000, "description": "Tăng thưởng lệnh /dig" },
+  { "id": "rifle", "name": "🔫 Súng săn", "price": 1400, "description": "Tăng thưởng lệnh /hunt" }
+]

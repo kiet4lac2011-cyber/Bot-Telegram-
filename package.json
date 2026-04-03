@@ -1,0 +1,14 @@
+{
+  "name": "mirai-style-telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram modular lấy cảm hứng từ Mirai Messenger",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}

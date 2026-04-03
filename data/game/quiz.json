@@ -1,0 +1,6 @@
+[
+  { "q": "Thủ đô Việt Nam là gì?", "a": "hanoi" },
+  { "q": "2 + 2 = ?", "a": "4" },
+  { "q": "Ngôn ngữ chạy Node.js là gì?", "a": "javascript" },
+  { "q": "Màu của bầu trời ban ngày?", "a": "xanh" }
+]
